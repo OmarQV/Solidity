@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.22;
+pragma solidity ^0.8.22;
 
 contract OperatorLogico { 
     // Inicializar variables
@@ -14,5 +14,4 @@ contract OperatorLogico {
         
     // Inicializar una variable con el resultado de un NOT
     bool public not = !solea;
-         
 }

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.22; // Especifica la versión del compilador Solidity
+pragma solidity ^0.8.22; // Especifica la versión del compilador Solidity
 
 /**
  * @title HolaMundo

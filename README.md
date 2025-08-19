@@ -1,9 +1,8 @@
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![Motoko](https://img.shields.io/badge/Motoko-29ABE2?style=for-the-badge&logo=internet-computer&logoColor=white)
-![Foundry](https://img.shields.io/badge/Foundry-1A1B23?style=for-the-badge&logo=foundry&logoColor=white)
-![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
 ![MetaMask](https://img.shields.io/badge/MetaMask-E2761B?style=for-the-badge&logo=metamask&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
+![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
+![Foundry](https://img.shields.io/badge/Foundry-1A1B23?style=for-the-badge&logo=foundry&logoColor=white)
 ![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=for-the-badge&logo=openzeppelin&logoColor=white)
 
 # 🚀 Mi Patio de Juegos de Contratos Inteligentes con Solidity

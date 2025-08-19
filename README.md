@@ -51,7 +51,7 @@ Los ejemplos están organizados en carpetas autocontenidas, cada una enfocada en
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone <URL-del-repositorio>
+    git clone https://github.com/OmarQV/Solidity.git
     ```
 2.  **Navega a la carpeta que te interese:**
 3.  **Abre los archivos `.sol` en [Remix](https://remix.ethereum.org/)**, compílalos y despliega los contratos en una red de prueba para interactuar y experimentar.

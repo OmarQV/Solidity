@@ -1,33 +1,37 @@
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ethereum/solidity/main/docs/images/solidity_logo.svg" alt="Solidity Logo" width="180"/>
+</div>
+
 # 🚀 Mi Patio de Juegos de Contratos Inteligentes con Solidity
-#
-# Hola, mi nombre es Omar
 
-¡Bienvenido a mi repositorio de "Solidity Smart Contracts Playground"! Este espacio es un viaje personal a través del aprendizaje y la experimentación con el lenguaje de programación Solidity, que se utiliza para escribir contratos inteligentes en plataformas blockchain como Ethereum.
+¡Hola! Soy Omar 👋
 
-Aquí encontrarás una colección creciente de ejemplos, desde los conceptos más básicos hasta los más complejos, todos con el objetivo de consolidar mi comprensión y compartir el proceso de aprendizaje.
+Bienvenido a mi repositorio de aprendizaje y experimentación con **Solidity**, el lenguaje para crear contratos inteligentes en Ethereum y otras blockchains compatibles. Aquí encontrarás ejemplos prácticos, explicaciones claras y ejercicios para que aprendas desde cero y consolides tus conocimientos.
 
 ---
 
 ## 📂 Estructura del Repositorio
 
-Los ejemplos están organizados en carpetas autocontenidas, cada una enfocada en un tema o conjunto de conceptos específico.
+Los ejemplos están organizados en carpetas autocontenidas, cada una enfocada en un tema o conjunto de conceptos específico. Cada carpeta incluye contratos, ejercicios y documentación para que puedas practicar y entender cada concepto.
 
 * **`1. Hello World`**:
-    * ¡Mi primera inmersión en Solidity! Esta carpeta contiene un contrato inteligente simple de "Hola Mundo", que demuestra cómo definir un contrato, declarar una variable de estado y crear funciones básicas para establecer y recuperar un mensaje. Es el punto de partida clásico para cualquier nuevo lenguaje.
+    * ¡Mi primera inmersión en Solidity! Un contrato simple de "Hola Mundo" para aprender la estructura básica, variables de estado y funciones.
 
 * **`2. Tipos de Dato`**:
-    * Comprender los tipos de datos es fundamental. Esta sección explora los diversos tipos de datos disponibles en Solidity, como enteros (`uint`, `int`), booleanos (`bool`), direcciones (`address`), arrays de bytes de tamaño fijo (`bytes1` a `bytes32`) y arrays dinámicos. Encontrarás ejemplos que muestran cómo declarar, asignar y manipular estos tipos.
+    * Explora los tipos de datos en Solidity: enteros, booleanos, direcciones, arrays y más. Incluye ejemplos de declaración, asignación y manipulación.
 
 * **`3. Operadores`**:
-    * Esta carpeta cubre los diferentes tipos de operadores utilizados en Solidity, incluyendo los aritméticos (`+`, `-`, `*`, `/`, `%`), de comparación (`==`, `!=`, `<`, `<=`, `>`, `>=`), lógicos (`&&`, `||`, `!`) y de bits. Los ejemplos ilustran cómo funcionan estos operadores dentro de los contratos inteligentes para realizar cálculos y tomar decisiones.
+    * Aprende a usar operadores aritméticos, de comparación, lógicos y de bits en tus contratos inteligentes. Ejemplos prácticos para entender su funcionamiento.
+
+* **`4. Estructuras de Control`**:
+    * Controla el flujo de ejecución en tus contratos inteligentes. Ejemplos de condicionales (`if`, `else`, `else if`), bucles (`for`, `while`, `do/while`), y control de flujo (`break`, `continue`, `return`). Incluye ejercicios y explicaciones detalladas para dominar la lógica de tus contratos. ¡Ahora con ejercicios prácticos como suma de pares, cuenta regresiva, validación de números primos y más!
 
 ---
 
 ## 🔮 ¿Qué Sigue?
 
-¡Estoy continuamente aprendiendo y expandiendo este repositorio! Las futuras adiciones incluirán:
+¡Este repositorio está en constante crecimiento! Próximamente se agregarán:
 
-* **Estructuras de Control**: Explorando `if/else`, bucles `for`, bucles `while` y bucles `do/while`.
 * **Funciones y Visibilidad**: Inmersiones más profundas en modificadores de función, tipos de función (`pure`, `view`, `payable`) y ejemplos completos de visibilidad `public`, `private`, `internal` y `external`.
 * **Mappings y Structs**: Demostrando cómo usar estructuras de datos complejas.
 * **Eventos**: Aprendiendo a registrar eventos para aplicaciones fuera de la cadena.
@@ -39,18 +43,21 @@ Los ejemplos están organizados en carpetas autocontenidas, cada una enfocada en
 
 ## 🌱 Primeros Pasos
 
-Para explorar estos contratos:
+¿Cómo empezar?
 
 1.  **Clona el repositorio:**
-2.  **Navega a una carpeta específica:**
-3.  **Usa un IDE de Solidity como [Remix](https://remix.ethereum.org/)** para abrir los archivos `.sol`, compilarlos y desplegarlos en una red de prueba o entorno de blockchain local para interactuar con ellos.
+    ```bash
+    git clone <URL-del-repositorio>
+    ```
+2.  **Navega a la carpeta que te interese:**
+3.  **Abre los archivos `.sol` en [Remix](https://remix.ethereum.org/)**, compílalos y despliega los contratos en una red de prueba para interactuar y experimentar.
 
 ---
 
 ## 🤝 Contribuciones y Comentarios
 
-Este es un repositorio de aprendizaje, y agradezco cualquier comentario, sugerencia o crítica constructiva. Si tienes ideas para futuros temas o ves áreas de mejora, ¡no dudes en abrir un *issue* o contactarme!
+Este es un repositorio de aprendizaje abierto. Si tienes sugerencias, encuentras errores o quieres proponer nuevos temas, ¡abre un *issue* o contáctame! Tu feedback es bienvenido.
 
 ---
 
-¡Feliz programación! 🚀
+¡Feliz programación y que tus contratos sean seguros y eficientes! 🚀

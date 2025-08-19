@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ethereum/solidity/main/docs/images/solidity_logo.svg" alt="Solidity Logo" width="180"/>
-</div>
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
 
 # 🚀 Mi Patio de Juegos de Contratos Inteligentes con Solidity
 

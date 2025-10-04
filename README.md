@@ -1,6 +1,9 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ethereum/solidity/main/docs/images/solidity_logo.svg" alt="Solidity Logo" width="180"/>
-</div>
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+![MetaMask](https://img.shields.io/badge/MetaMask-E2761B?style=for-the-badge&logo=metamask&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
+![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
+![Foundry](https://img.shields.io/badge/Foundry-1A1B23?style=for-the-badge&logo=foundry&logoColor=white)
+![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=for-the-badge&logo=openzeppelin&logoColor=white)
 
 # 🚀 Mi Patio de Juegos de Contratos Inteligentes con Solidity
 
@@ -48,7 +51,7 @@ Los ejemplos están organizados en carpetas autocontenidas, cada una enfocada en
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone <URL-del-repositorio>
+    git clone https://github.com/OmarQV/Solidity.git
     ```
 2.  **Navega a la carpeta que te interese:**
 3.  **Abre los archivos `.sol` en [Remix](https://remix.ethereum.org/)**, compílalos y despliega los contratos en una red de prueba para interactuar y experimentar.

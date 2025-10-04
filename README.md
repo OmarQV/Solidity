@@ -26,13 +26,14 @@ Los ejemplos están organizados en carpetas autocontenidas, cada una enfocada en
 * **`4. Estructuras de Control`**:
     * Controla el flujo de ejecución en tus contratos inteligentes. Ejemplos de condicionales (`if`, `else`, `else if`), bucles (`for`, `while`, `do/while`), y control de flujo (`break`, `continue`, `return`). Incluye ejercicios y explicaciones detalladas para dominar la lógica de tus contratos. ¡Ahora con ejercicios prácticos como suma de pares, cuenta regresiva, validación de números primos y más!
 
+* **`5. Funciones y Visibilidad`**:
+    * Domina las funciones en Solidity y sus niveles de visibilidad. Aprende la diferencia entre `pure`, `view`, `payable` y funciones normales. Explora `public`, `private`, `internal` y `external` con ejemplos prácticos. Incluye ejercicios completos como calculadoras, sistemas de votación, donaciones y validadores de números para practicar cada concepto.
+
 ---
 
 ## 🔮 ¿Qué Sigue?
 
 ¡Este repositorio está en constante crecimiento! Próximamente se agregarán:
-
-* **Funciones y Visibilidad**: Inmersiones más profundas en modificadores de función, tipos de función (`pure`, `view`, `payable`) y ejemplos completos de visibilidad `public`, `private`, `internal` y `external`.
 * **Mappings y Structs**: Demostrando cómo usar estructuras de datos complejas.
 * **Eventos**: Aprendiendo a registrar eventos para aplicaciones fuera de la cadena.
 * **Manejo de Errores**: Implementando `require`, `revert` y `assert` para una lógica de contrato robusta.

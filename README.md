@@ -39,6 +39,20 @@ Los ejemplos están organizados en carpetas autocontenidas, cada una enfocada en
 
 ## 📊 Visualización de Contratos
 
+### Diagrama UML - Hola Mundo (Contrato Básico)
+
+```mermaid
+classDiagram
+    class HolaMundo {
+        -string mensaje
+        +constructor()
+        +establecerMensaje(string nuevoMensaje)
+        +obtenerMensaje() string
+    }
+    
+    note for HolaMundo "Contrato básico para aprender\nla estructura fundamental de Solidity"
+```
+
 ### Diagrama UML - Sistema de Votación Descentralizada
 
 ```mermaid

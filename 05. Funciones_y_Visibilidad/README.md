@@ -36,9 +36,13 @@ classDiagram
     
     FuncionesVisibilidad <|-- ContratoHijo : hereda
     
-    note for FuncionesVisibilidad "Demuestra todos los tipos\nde funciones y visibilidad"
-    note "private: solo este contrato\ninternal: este + heredados\npublic: acceso total\nexternal: solo desde fuera" as N1
+    note for FuncionesVisibilidad "Demuestra todos los tipos de funciones y visibilidad"
 ```
+
+**Leyenda de Visibilidad:**
+- `+` = public (acceso total)
+- `-` = private (solo este contrato)
+- `#` = internal (este contrato + heredados)
 
 ## Temas cubiertos
 

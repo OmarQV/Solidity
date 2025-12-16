@@ -37,12 +37,97 @@ Los ejemplos están organizados en carpetas autocontenidas, cada una enfocada en
 
 ---
 
+## 📊 Visualización de Contratos
+
+### Diagrama UML - Sistema de Votación Descentralizada
+
+```mermaid
+classDiagram
+    class SistemaVotacion {
+        +mapping~uint256-Eleccion~ elecciones
+        +uint256 totalElecciones
+        +address admin
+        +crearEleccion(nombre, duracion) uint256
+        +agregarCandidato(idEleccion, nombre, propuesta)
+        +votar(idEleccion, idCandidato)
+        +cerrarEleccion(idEleccion)
+        +obtenerGanador(idEleccion) string
+    }
+    
+    class Eleccion {
+        +string nombre
+        +uint256 fechaInicio
+        +uint256 fechaFin
+        +bool activa
+        +mapping~uint256-Candidato~ candidatos
+        +mapping~address-bool~ haVotado
+        +uint256 totalCandidatos
+        +uint256 totalVotos
+    }
+    
+    class Candidato {
+        +string nombre
+        +string propuesta
+        +uint256 votos
+        +bool activo
+    }
+    
+    SistemaVotacion "1" --> "*" Eleccion : contiene
+    Eleccion "1" --> "*" Candidato : contiene
+```
+
+### Arquitectura del Proyecto
+
+```
+📁 Solidity Contracts
+├── 📂 01. Hola_Mundo
+│   └── Conceptos básicos
+├── 📂 02. Tipos_de_Dato
+│   └── Tipos primitivos y complejos
+├── 📂 03. Operadores
+│   └── Operaciones y comparaciones
+├── 📂 04. Estructuras_de_Control
+│   └── Condicionales y bucles
+├── 📂 05. Funciones_y_Visibilidad
+│   └── Modificadores y acceso
+└── 📂 06. Mappings_y_Structs
+    └── Estructuras de datos complejas
+```
+
+---
+
+## 🎯 Conceptos Clave por Nivel
+
+### 🟢 Principiante (Temas 1-3)
+- Variables y tipos de datos
+- Funciones básicas
+- Operaciones matemáticas y lógicas
+- Estructura de un contrato
+
+### 🟡 Intermedio (Temas 4-5)
+- Estructuras de control
+- Visibilidad de funciones
+- Modificadores `pure`, `view`, `payable`
+- Eventos y logging
+
+### 🔴 Avanzado (Tema 6+)
+- Mappings y structs complejos
+- Patrones de diseño
+- Optimización de gas
+- Sistemas completos (NFT, Votación, DeFi)
+
+---
+
 ## 🔮 ¿Qué Sigue?
 
 ¡Este repositorio está en constante crecimiento! Próximamente se agregarán:
-* **Eventos**: Aprendiendo a registrar eventos para aplicaciones fuera de la cadena.
+* **Eventos y Logs**: Aprendiendo a registrar eventos para aplicaciones fuera de la cadena.
 * **Manejo de Errores**: Implementando `require`, `revert` y `assert` para una lógica de contrato robusta.
-* **Herencia e Interfaces**: Construyendo sobre contratos existentes.
+* **Herencia e Interfaces**: Construyendo sobre contratos existentes y usando interfaces estándar.
+* **Modificadores Personalizados**: Creando validaciones reutilizables.
+* **Patrones de Diseño**: Factory, Proxy, Upgradeable contracts.
+* **Seguridad**: Reentrancy, overflow, access control.
+* **Integración con Web3**: Conectar contratos con aplicaciones frontend.
 * ¡Y mucho más!
 
 ---

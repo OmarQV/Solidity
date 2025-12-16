@@ -189,7 +189,8 @@ contract EjerciciosMappingsStructs {
         nftsDelPropietario[msg.sender].push(_tokenId);
         
         // Transferir pago
-        payable(vendedor).transfer(precio);
+        (bool success, ) = payable(vendedor).call{value: precio}("");
+        require(success, "Transferencia fallida");
         
         emit NFTVendido(_tokenId, vendedor, msg.sender, precio);
     }

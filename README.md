@@ -32,12 +32,14 @@ Los ejemplos están organizados en carpetas autocontenidas, cada una enfocada en
 * **`5. Funciones y Visibilidad`**:
     * Domina las funciones en Solidity y sus niveles de visibilidad. Aprende la diferencia entre `pure`, `view`, `payable` y funciones normales. Explora `public`, `private`, `internal` y `external` con ejemplos prácticos. Incluye ejercicios completos como calculadoras, sistemas de votación, donaciones y validadores de números para practicar cada concepto.
 
+* **`6. Mappings y Structs`**:
+    * Aprende a crear estructuras de datos complejas con mappings y structs. Descubre mappings simples, anidados, structs con arrays y la combinación de ambos. Incluye proyectos completos como biblioteca digital, sistema de tareas, marketplace NFT, sistema de votación avanzado y red social descentralizada para dominar estas estructuras fundamentales.
+
 ---
 
 ## 🔮 ¿Qué Sigue?
 
 ¡Este repositorio está en constante crecimiento! Próximamente se agregarán:
-* **Mappings y Structs**: Demostrando cómo usar estructuras de datos complejas.
 * **Eventos**: Aprendiendo a registrar eventos para aplicaciones fuera de la cadena.
 * **Manejo de Errores**: Implementando `require`, `revert` y `assert` para una lógica de contrato robusta.
 * **Herencia e Interfaces**: Construyendo sobre contratos existentes.

@@ -133,7 +133,8 @@ contract FuncionesVisibilidad {
         require(_validarPropietario(), "Solo el propietario");
         require(address(this).balance > 0, "No hay fondos para retirar");
         
-        payable(propietario).transfer(address(this).balance);
+        (bool success, ) = payable(propietario).call{value: address(this).balance}("");
+        require(success, "Transferencia fallida");
     }
     
     // ==================== DEMOSTRACIÓN DE DIFERENCIAS ====================
